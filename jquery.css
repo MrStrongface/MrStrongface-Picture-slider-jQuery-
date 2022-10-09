@@ -1,0 +1,44 @@
+body{
+    background-color: darkgray;
+}
+.gallery{
+    padding: 20px;
+    border: 8px groove #cccccc;
+    border-color:dimgrey;
+    width: 700px;
+    margin: 10px auto;
+    height: 540px;
+    background-color: white;
+}
+.big{
+    width: 700px;
+    height: 390px;
+    border: 1px dotted #cccccc;
+    background-image: url(pic/load.gif);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+img{
+    width: 700px;
+}
+.small{
+    margin-top: 10px;
+    margin-left: 33px;
+}
+.small a img{
+    width: 155px;
+}
+.button{
+    height: 50px;
+    width: 50px;
+    font-size: 50px;
+    border: 5px inset red;
+    border-radius: 50%;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    background-color: snow;
+}
+.button:hover{
+    cursor: pointer ;
+}
